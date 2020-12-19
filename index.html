@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>
             Romina Owens
         </title>
-        <link href="style/style.css" rel="stylesheet">
+        <link href="style/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="image/unnamed.jpg" type="image/gif" sizes="16x16">
+        <script src= "script.js" defer></script>
     </head>
     <body>
-        <div class="page">
+        <div class="parallax">
+            <header>
         <h1>
             Romina Owens
         </h1>
+            </header>
+            <div class="hero-image">
+        <img id="MyImage" src="img/romina.jpg" alt= "Me" style="width:500px">
        
-        <img src="img/romina.jpg" class="portrait" width="500px" >
-        
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+          
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+          
+           
+          </div>
+            
+            </div>
+            <div id="nav" class="navMenu">
+            <nav>
+                <!--div id="nav-rights"-->
+                    <a  href="#nfo"  class="info">Home</a> 
+                    <a  href="#book" class="read">Reading</a> 
+                    <a  href="#programWizzard" class="about">About</a> 
+                    <a  href="#schedule" class="schedule">Schedule</a> 
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+              
+            </nav>
+            </div>
             <h2>Personal Info</h2>
             <ul>
                 <li><b>Major: </b>Software engineer</li>
@@ -31,12 +60,13 @@
                     <li><i>Pride and Prejudice </i>, by <a href="https://www.janeausten.org/">Jane Austen</a></li>
                 </ol> 
             <h2>"A Programming Wizzard"</h2> 
-             <p class="lizard">To all the students for fun!</p>
-             There once was a programming wizard<br/>
-             Who had a sharp pain in his gizzard<br/>
-             But when he pressed keys<br/>
-             His gas passed with easy<br/>
-             And his programming stunk like dead lizard.<br/>
+                <p class="lizard">To all the students for fun!</p>
+               
+                <p>There once was a programming wizard<br/>
+                    Who had a sharp pain in his gizzard<br/>
+                    But when he pressed keys<br/>
+                    His gas passed with easy<br/>
+                    And his programming stunk like dead lizard.<br/></p>
 
             <h2>Personal Interests</h2> 
             <p>I like to learn new thinks all the time. I will spend hours and hours until I can achieve what I want
@@ -182,11 +212,9 @@
 
             </table>
         
-        </div>
-        <div class="hero-image">
-           
-        </div>
-        
+        </div>  
+      
     </body>
+    <footer>Copyright &copy 2020-Romina Owens.</footer>
 
 </html>
